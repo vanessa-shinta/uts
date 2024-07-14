@@ -8,7 +8,8 @@ dependencies:
     sdk: flutter
   flutter_localizations: 
     sdk: flutter
-  appwrite: ^1.0.0
+  appwrite: ^8.0.4
+  sizer: ^2.0.15
   cached_network_image: ^3.3.0
   flutter_svg: ^2.0.9
   barcode_widget: ^2.0.4
