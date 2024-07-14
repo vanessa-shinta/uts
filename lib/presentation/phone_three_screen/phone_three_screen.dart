@@ -5,10 +5,7 @@ import '../../widgets/custom_elevated_button.dart';
 import '../../widgets/custom_icon_button.dart';
 
 class PhoneThreeScreen extends StatelessWidget {
-  const PhoneThreeScreen({Key? key})
-      : super(
-          key: key,
-        );
+  const PhoneThreeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -3,10 +3,7 @@ import '../../core/app_export.dart';
 import '../../widgets/custom_elevated_button.dart';
 
 class PhoneOneScreen extends StatelessWidget {
-  const PhoneOneScreen({Key? key})
-      : super(
-          key: key,
-        );
+  const PhoneOneScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -144,6 +141,9 @@ class PhoneOneScreen extends StatelessWidget {
                       CustomElevatedButton(
                         width: 208.h,
                         text: "Get Started",
+                        onPressed: () {
+                          Navigator.pushNamed(context, AppRoutes.phoneTwoContainerScreen);
+                        },
                       )
                     ],
                   ),

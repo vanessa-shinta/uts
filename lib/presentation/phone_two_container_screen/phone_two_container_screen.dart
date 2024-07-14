@@ -5,10 +5,7 @@ import '../phone_two_page/phone_two_page.dart'; // ignore_for_file: must_be_immu
 
 // ignore_for_file: must_be_immutable
 class PhoneTwoContainerScreen extends StatelessWidget {
-  PhoneTwoContainerScreen({Key? key})
-      : super(
-          key: key,
-        );
+  PhoneTwoContainerScreen({Key? key}) : super(key: key);
 
   GlobalKey<NavigatorState> navigatorKey = GlobalKey();
 

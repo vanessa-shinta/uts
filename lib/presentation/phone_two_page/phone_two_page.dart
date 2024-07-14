@@ -4,19 +4,12 @@ import '../../theme/custom_button_style.dart';
 import '../../widgets/custom_elevated_button.dart';
 import '../../widgets/custom_floating_text_field.dart';
 import '../../widgets/custom_icon_button.dart'; // ignore_for_file: must_be_immutable
-// ignore_for_file: must_be_immutable
 
-// ignore_for_file: must_be_immutable
 class PhoneTwoPage extends StatelessWidget {
-  PhoneTwoPage({Key? key})
-      : super(
-          key: key,
-        );
+  PhoneTwoPage({Key? key}) : super(key: key);
 
   TextEditingController formvalueController = TextEditingController();
-
   TextEditingController departureController = TextEditingController();
-
   TextEditingController returnvalueController = TextEditingController();
 
   @override
@@ -204,6 +197,9 @@ class PhoneTwoPage extends StatelessWidget {
     return CustomElevatedButton(
       text: "Search",
       buttonStyle: CustomButtonStyles.outlinePrimaryTL10,
+      onPressed: () {
+        Navigator.pushNamed(context, AppRoutes.phoneThreeScreen);
+      },
     );
   }
 
